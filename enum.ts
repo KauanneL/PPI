@@ -24,6 +24,7 @@ interface Turma {
     cod: number,
     nome: string,
     curso: Curso
+    turno: Turno
 }
 
 const ppi: Turma = {
