@@ -25,3 +25,10 @@ interface Turma {
     nome: string,
     curso: Curso
 }
+
+const ppi: Turma = {
+    cod: 20261,
+    nome: 'Programação para Internet',
+    curso: Curso.INFO,
+    turno: 'MATUTINO'
+}
