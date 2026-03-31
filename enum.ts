@@ -31,5 +31,5 @@ const ppi: Turma = {
     cod: 20261,
     nome: 'Programação para Internet',
     curso: Curso.INFO,
-    turno: 'MATUTINO'
+    turno: 'Matutino'
 }
