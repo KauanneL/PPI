@@ -1,11 +1,17 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const prompt = require('prompt-sync')();
+let numFilhos = 0;
+let mediaRenda = 0;
+let mediaFilhos = 0;
+//leitura 1 vez fora da repetição
 let renda = +prompt('Renda familiar: ');
-let numFilhos = +prompt('Quantidade filhos: ');
 while (renda > 0) {
-    //faz as contagens que o programa tá pedindo
-    renda = +prompt('Renda familiar: ');
     numFilhos = +prompt('Quantidade filhos: ');
+    //Fazer as contagens que o programa tá pedindo
+    mediaRenda += renda;
+    mediaFilhos += numFilhos;
+    renda = +prompt('Renda Familiar: ');
 }
+//Exibir o resultado (as médias)
 //# sourceMappingURL=familias.js.map
