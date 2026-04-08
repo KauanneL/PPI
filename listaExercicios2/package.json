@@ -1,0 +1,17 @@
+{
+  "name": "listaexercicios2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "q1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "types": "./q1.d.ts",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
